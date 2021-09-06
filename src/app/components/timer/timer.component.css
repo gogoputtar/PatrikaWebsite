@@ -1,0 +1,39 @@
+
+/* #f26147; */
+.sloka{
+  color: rgb(248, 76, 76);
+  text-shadow: 0 0 30px #f26147;
+}
+#timer {
+  padding-top: 2rem;
+  font-size: 3em;
+  font-weight: 100;
+  color: black;
+  text-shadow: 0 0 20px #f26147;
+  padding-bottom: 2rem;
+}
+@media screen and(min-width:200px){
+ .scnd{
+   padding-top: 50px;
+ } 
+}
+@media screen and (min-width: 710px) {
+ #timer .col-3{
+   min-width: 90px;
+ }
+}
+@media screen and (min-width: 480px) {
+  #timer .col-3{
+    min-width: 80px;
+  }
+ }
+#timer div {
+  display: inline-block;
+ 
+}
+#timer div span {
+  color: #f26147;
+  display: block;
+  font-size: .35em;
+  font-weight: 400;
+}

@@ -1,0 +1,17 @@
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+.ww-nav-bar .heart {
+    fill: #f26147;
+    position: relative;
+    top: 2px;
+    width: 40px;
+    -webkit-animation: pulse 1s ease infinite;
+    animation: pulse 1s ease infinite;
+}
